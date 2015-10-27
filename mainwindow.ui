@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>319</width>
+    <width>477</width>
     <height>377</height>
    </rect>
   </property>
@@ -25,17 +25,49 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
-           <widget class="QRadioButton" name="radioButton_2">
-            <property name="text">
-             <string>5 brzina</string>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Broj brzina:</string>
             </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QRadioButton" name="radioButton_4">
+               <property name="text">
+                <string>4 brzine</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_5">
+               <property name="text">
+                <string>5 brzina</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </widget>
           </item>
           <item>
-           <widget class="QRadioButton" name="radioButton">
-            <property name="text">
-             <string>4 brzine</string>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>Diferencijal:</string>
             </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QRadioButton" name="radioButton_13">
+               <property name="text">
+                <string>13/53</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_17">
+               <property name="text">
+                <string>17/64</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </widget>
           </item>
           <item>
@@ -64,7 +96,174 @@
          </layout>
         </item>
         <item>
-         <layout class="QVBoxLayout" name="lyt" stretch="0,0">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>10</number>
+          </property>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Felna</string>
+            </property>
+            <property name="margin">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QListWidget" name="listFelna">
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>125</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>18</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>10</number>
+          </property>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Sirina gume</string>
+            </property>
+            <property name="margin">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QListWidget" name="listSirina">
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>125</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>145</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>155</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>165</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>175</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>185</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>195</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>205</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>215</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>225</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="lyt" stretch="0,0,0">
           <property name="spacing">
            <number>0</number>
           </property>
@@ -83,15 +282,18 @@
           <property name="bottomMargin">
            <number>10</number>
           </property>
-          <item>
+          <item alignment="Qt::AlignHCenter">
            <widget class="QLabel" name="label_2">
             <property name="text">
              <string>Visina gume:</string>
             </property>
+            <property name="margin">
+             <number>2</number>
+            </property>
            </widget>
           </item>
-          <item>
-           <widget class="QListWidget" name="listWidget_2">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QListWidget" name="listVisina">
             <property name="maximumSize">
              <size>
               <width>50</width>
@@ -155,80 +357,18 @@
             </item>
            </widget>
           </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QVBoxLayout" name="verticalLayout_4">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>10</number>
-          </property>
           <item>
-           <widget class="QLabel" name="label_3">
-            <property name="text">
-             <string>Sirina gume</string>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
             </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QListWidget" name="listWidget">
-            <property name="maximumSize">
+            <property name="sizeHint" stdset="0">
              <size>
-              <width>50</width>
-              <height>125</height>
+              <width>20</width>
+              <height>40</height>
              </size>
             </property>
-            <item>
-             <property name="text">
-              <string>145</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>155</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>165</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>175</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>185</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>195</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>205</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>215</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>225</string>
-             </property>
-            </item>
-           </widget>
+           </spacer>
           </item>
          </layout>
         </item>
@@ -247,6 +387,19 @@
              <string>Close</string>
             </property>
            </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
           </item>
          </layout>
         </item>

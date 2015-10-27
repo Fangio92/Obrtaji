@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "tocak.h"
+#include "menjac.h"
 
 namespace Ui {
 class MainWindow;
@@ -15,8 +17,15 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
+    int check();
+    void put_default();
 };
 
 #endif // MAINWINDOW_H
