@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    tocak.cpp \
+    menjac.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tocak.h \
+    menjac.h
 
 FORMS    += mainwindow.ui
