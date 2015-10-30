@@ -1,7 +1,17 @@
 #include "diferencijal.h"
-
-Diferencijal::Diferencijal()
+#include <iostream>
+Diferencijal::Diferencijal(int diff)
 {
-    m_17_64=64/17;
-    m_13_53=53/13;
+    if(diff==17){
+        m_ratio=64/17.0;
+    }
+    else if(diff==13){
+        m_ratio=53/13.0;
+    }
+}
+
+double Diferencijal::get_ratio()
+{
+    //std::cout<<m_ratio<<std::endl;
+    return m_ratio;
 }

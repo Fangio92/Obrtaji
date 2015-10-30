@@ -1,6 +1,6 @@
 #ifndef TOCAK_H
 #define TOCAK_H
-#define KOREKCIJA 1.5
+#define KOREKCIJA 1.0
 
 class Tocak
 {

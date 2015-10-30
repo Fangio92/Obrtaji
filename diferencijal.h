@@ -4,11 +4,11 @@
 class Diferencijal
 {
 public:
-    Diferencijal();
+    Diferencijal(int diff);
+    double get_ratio();
 
 private:
-    double m_17_64;
-    double m_13_53;
+    double m_ratio;
 };
 
 #endif // DIFERENCIJAL_H
